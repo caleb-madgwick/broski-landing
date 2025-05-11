@@ -42,13 +42,14 @@ export default function Page() {
   </div>
 
   {/* Right: App Mockup */}
-<div className="md:ml-[-80px]">
+<div>
   <img
     src="/app-mockup.png"
     alt="Broski App Screenshot"
-    className="w-[750px] max-w-none"
+    className="w-full max-w-xl mx-auto"
   />
 </div>
+
 </section>
 
 
@@ -69,17 +70,22 @@ export default function Page() {
         </section>
 
         {/* Section 2 */}
-        <section className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-2xl font-semibold mb-4">How does it work?</h2>
-            <ul className="list-disc list-inside text-lg space-y-2">
-              <li>Set your profile: skill level, location & vibe</li>
-              <li>Discover riders nearby who are keen to link up</li>
-              <li>Chat, meet at the lift, and ride together</li>
-            </ul>
-          </div>
-          <img src="/photo2.jpg" alt="App demo" className="rounded-xl shadow-md" />
-        </section>
+<section className="grid md:grid-cols-2 gap-12 items-center">
+  <div className="order-2 md:order-1">
+    <h2 className="text-2xl font-semibold mb-4">How does it work?</h2>
+    <ul className="list-disc list-inside text-lg space-y-2">
+      <li>Set your profile: skill level, location & vibe</li>
+      <li>Discover riders nearby who are keen to link up</li>
+      <li>Chat, meet at the lift, and ride together</li>
+    </ul>
+  </div>
+  <img
+    src="/photo2.jpg"
+    alt="App demo"
+    className="rounded-xl shadow-md order-1 md:order-2"
+  />
+</section>
+
 
                {/* Section 3 */}
         <section className="grid md:grid-cols-2 gap-12 items-center">
