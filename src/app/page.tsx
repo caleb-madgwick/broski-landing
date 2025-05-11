@@ -6,9 +6,11 @@ export default function Page() {
         <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
           {/* Left: Logo + App Name */}
           <div className="flex items-center space-x-3">
-            <img src="/broski-icon.png" alt="Broski Logo" className="h-8 w-8" />
-            <span className="text-xl font-bold text-gray-900">Broski</span>
-          </div>
+            <img src="/broski-icon.png" alt="Broski Icon" className="h-16 w-16 rounded-xl" />
+<div className="flex flex-col leading-tight">
+  <span className="text-2xl md:text-3xl font-bold text-gray-900">Broski</span>
+  <span className="text-sm text-gray-600 -mt-1">Find your ski crew</span>
+</div>          </div>
 
           {/* Right: App Store Badge */}
           <a href="#" className="h-10">
@@ -22,7 +24,37 @@ export default function Page() {
       </header>
 
 
+
       <main className="max-w-6xl mx-auto px-4 py-20 space-y-32">
+
+{/* HERO SECTION */}
+<section className="grid md:grid-cols-2 items-center gap-12">
+  {/* Left: Icon + Headline + Description */}
+  <div className="flex flex-col items-start space-y-6">
+    <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+      Plan Your Next Ski Day With Friends Who Shred Like You
+    </h1>
+    <p className="text-lg opacity-90 max-w-md">
+      Broski helps skiers and snowboarders find new crew based on trip plans and mountain vibes —
+      not swipes. See who’s heading to the same resort, match by availability and skill, and ride
+      together on and off the slopes.
+    </p>
+  </div>
+
+  {/* Right: App Mockup */}
+<div className="md:ml-[-80px]">
+  <img
+    src="/app-mockup.png"
+    alt="Broski App Screenshot"
+    className="w-[750px] max-w-none"
+  />
+</div>
+</section>
+
+
+<hr className="border-t border-white/30 my-12" />
+
+
         {/* Section 1 */}
         <section className="grid md:grid-cols-2 gap-12 items-center">
           <img src="/photo1.jpg" alt="Ski friends" className="rounded-xl shadow-md" />
