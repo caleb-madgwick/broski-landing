@@ -125,7 +125,11 @@ Broski helps skiers and snowboarders find people to ride with based on resort, a
   <p>
     Interested in partnering or investing in Broski? Let’s talk - <a href="mailto:calebjmadgwick@gmail.com" className="underline">calebjmadgwick@gmail.com</a>
   </p>
+  <p className="mt-2">
+    <a href="/privacy-policy" className="underline">Privacy Policy</a>
+  </p>
 </footer>
+
     </div>
   );
 }
