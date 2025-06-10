@@ -12,10 +12,16 @@ export default function PrivacyPolicyPage() {
             </div>
           </div>
 
-          <a href="#" className="h-10 opacity-60 cursor-not-allowed" title="Coming Soon">
+          <a
+            href="https://apps.apple.com/app/broski/id6745537624"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="h-10 hover:opacity-90 transition-opacity"
+            title="Download on the App Store"
+          >
             <img
               src="/app-store-badge.svg"
-              alt="Coming Soon on the App Store"
+              alt="Download on the App Store"
               className="h-full"
             />
           </a>
