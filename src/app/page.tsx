@@ -109,9 +109,7 @@ Broski helps skiers and snowboarders find people to ride with based on resort, a
           <div className="order-2 md:order-1">
             <h2 className="text-3xl font-semibold mb-4">What's Next for Broski</h2>
             <p className="text-lg mb-4">
-              We're building new ways to connect - like in-app chat, user-led events, and meet-up spots on the ski map.
-              Soon, you’ll be able to track who you skied with, climb a leaderboard for making new friends, and even
-              win giveaways for topping it. Referral perks, ride logs, and freemium features are on the way too.
+              We're planning to bring Broski to Android next — it’s one of our most requested features, and we can’t wait to make it happen.
             </p>
             <p className="text-lg mb-4">
               Our monetisation plan includes a freemium tier with premium perks, sponsored challenges, and
@@ -125,6 +123,55 @@ Broski helps skiers and snowboarders find people to ride with based on resort, a
             className="rounded-xl shadow-md order-1 md:order-2"
           />
         </section>
+
+                {/* What People Are Saying */}
+        <section className="text-center space-y-10">
+          <h2 className="text-3xl font-semibold">What People Are Saying</h2>
+          <p className="text-lg opacity-90 max-w-2xl mx-auto">
+            Real words from early riders and supporters of Broski 🏔️
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8 mt-8">
+            {/* 21 Oct */}
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 text-left shadow-lg">
+              <p className="text-white/90 italic">
+                “yo bro love the app idea”
+              </p>
+              <p className="mt-3 text-sm text-white/70">— Wayne Brockway</p>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 text-left shadow-lg">
+              <p className="text-white/90 italic">
+                “Just downloaded it thanks… ….Great name btw”
+              </p>
+              <p className="mt-3 text-sm text-white/70">— Devin Newman</p>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 text-left shadow-lg">
+              <p className="text-white/90 italic">
+                “Thats awesome I cant wait for you to have it on all platforms”
+              </p>
+              <p className="mt-3 text-sm text-white/70">— Jasmin Goodwin</p>
+            </div>
+
+            {/* 22 Oct */}
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 text-left shadow-lg">
+              <p className="text-white/90 italic">
+                “Sounds like an amazing idea!! I skied a lot in France and would have loved this while I was doing my seasons!”
+              </p>
+              <p className="mt-3 text-sm text-white/70">— Becky Hush</p>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 text-left shadow-lg md:col-span-2">
+              <p className="text-white/90 italic">
+                “I really like this idea! I'm a guy that ends up spending a lot of time riding by myself because of the complexity of finding people whose abilities match yours and trying to create schedules that line up. I think this could be a really great app.”
+              </p>
+              <p className="mt-3 text-sm text-white/70">— Chris Sieb</p>
+            </div>
+          </div>
+
+      </section>
+
       </main>
 
       <footer className="text-center text-sm text-white/80 py-12">
