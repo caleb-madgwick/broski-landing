@@ -34,6 +34,10 @@ export default function LinksPage() {
               href: "https://broski.app",
             },
             {
+              label: "❄️ Buy a Sticker",
+              href: "https://www.stickermule.com/broski",
+            },
+            {
               label: "✉️ Contact Us",
               href: "mailto:calebjmadgwick@gmail.com",
             },
