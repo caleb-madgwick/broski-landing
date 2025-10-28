@@ -26,6 +26,10 @@ export default function LinksPage() {
               href: "https://apps.apple.com/app/broski/id6745537624",
             },
             {
+              label: "🤖 Join Android Waitlist",
+              href: "https://docs.google.com/forms/d/e/1FAIpQLSf9wfNPuMhigIKf5yO-Aqc3MpjdWKNxxGgCIpXcCx6MzXFONA/viewform?usp=dialog",
+            },
+            {
               label: "📸 Follow us on Instagram",
               href: "https://instagram.com/broski.app",
             },
